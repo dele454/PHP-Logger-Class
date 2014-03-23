@@ -1,12 +1,13 @@
 <?php
-include_once 'exceptions.logger.class.php';
-
 /**
  * Logger class.
  * Usefull to log notices, warnings, errors or fatal errors into a logfile.
  * @author gehaxelt
  * @version 1.1
  */
+namespace Logger;
+use Logger\Exceptions;
+
 class Logger {
 	
 	private $logfilehandle=NULL;

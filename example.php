@@ -1,5 +1,5 @@
 <?php
-include_once 'logger.class.php';
+include_once 'Logger.php';
 
 $log=new Logger("example.error.log");
 $log->log('Example Notice',Logger::NOTICE);
